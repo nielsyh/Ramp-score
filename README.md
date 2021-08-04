@@ -6,17 +6,17 @@ RAMP-SCORE is a python implementation of the ramp-score used in solar forecastin
  
 get_ramp_score(ref_ls, model_ls, avg_mins=60, sens = 80, name='Compete', plot=True)
 ### Input: 
-- forecast reference list (list of observed values)
+- Forecast reference list (list of observed values)
 
-- forecast model list (list of predicted values)
+- Forecast model list (list of predicted values)
 
-- minutes to average on (positive integer, default = 60)
+- Minutes to average on (positive integer, default = 60)
 
 - Sensitivity, the sensitivity to calculate the slopes in the SD algorithm.
 
-- names of model
+- Names of model.
 
-- plot, boolean if you want to plot output SD algorithm.
+- Plot, boolean if you want to plot output SD algorithm.
 
 ### Ouput:
 - rampscore (positive float).
