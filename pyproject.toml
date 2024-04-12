@@ -2,7 +2,7 @@
 name = "ramp-score"
 version = "0.1.0"
 description = "A Python package to calculate Ramp scores and apply swinging door compression to series."
-authors = ["niels.hendrikx <niels.hendrikx@enexis.nl>"]
+authors = ["niels.hendrikx <niels.y.hendrikx@gmail.coml>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
